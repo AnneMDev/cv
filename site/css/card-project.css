@@ -1,0 +1,23 @@
+.card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 285px;
+    width: 280px;
+    background-color: #4B1D7F;
+    box-shadow: 10px 10px #fff;
+}
+
+.card-project.-one {
+    background-color: #4C5B84;
+}
+
+.card-project.-two {
+    background-color: #07d8d8;
+}
+
+.card-project > img {
+    height: 250px;
+    width: 260px;
+    border-radius: 10px;
+}

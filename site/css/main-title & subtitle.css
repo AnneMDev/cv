@@ -1,0 +1,19 @@
+.main-title {
+    size: 80px;
+    color: #D33395;
+    text-shadow: 4px 4px 4px black;
+}
+
+.main-title.-second {
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+}
+
+.main-subtitle {
+    font-family: inherit;
+    font-weight: 100;
+    color: #fff;
+    size: 70px;  
+    text-shadow: 4px 4px 4px black;
+}

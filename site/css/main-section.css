@@ -1,0 +1,21 @@
+.main-section {
+   background-color: #D33395;
+   padding-top: 50px;
+   padding-bottom: 100px;
+   border-bottom: 10px solid #000;
+}
+
+.main-section .main-title {
+   margin-bottom: 50px;
+   font-size: 35px;
+}
+
+.main-section.-second {
+   height: 540px;
+   background-color: #020E88;
+}
+
+.main-section.-third {
+   background-color: #4B1D7F;
+   border-bottom: 10px solid #000;
+}

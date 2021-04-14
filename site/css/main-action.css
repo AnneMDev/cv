@@ -1,0 +1,16 @@
+.main-action {
+    display: inline-flex;
+    align-items: center;
+    color: #ffff;
+    font-size: 20px;
+    font-family: 'Dela Gothic One', cursive;
+    text-decoration: none;
+    margin-right: 30px;
+}.main-action::before {
+    content: '';
+    background-color: #D33395;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+}

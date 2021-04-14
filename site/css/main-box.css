@@ -1,0 +1,10 @@
+.main-box {
+    display: inline-block;
+    background-color: #020E88;
+    box-shadow: 10px 10px 5px black;
+    text-align: center;
+    padding: 60px 80px;   
+}
+.main-box .title {
+    margin-bottom: 20px;
+}

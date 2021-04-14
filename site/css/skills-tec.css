@@ -1,0 +1,22 @@
+.skill-tec {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.skill-tec .icon {
+    margin-right: 25px;
+    height: 80px;
+    width: 80px;
+}
+
+.skill-tec .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+    
+.skill-tec .title {
+    margin-bottom: 10px;
+}
