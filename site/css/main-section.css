@@ -9,6 +9,12 @@
    margin-bottom: 50px;
    font-size: 35px;
 }
+.main-section .title-input{
+   font-family: monospace;
+   font-size: 30px;
+   color: #fff;
+   font-weight: 300;
+}
 
 .main-section.-second {
    height: 540px;
@@ -18,4 +24,8 @@
 .main-section.-third {
    background-color: #4B1D7F;
    border-bottom: 10px solid #000;
+}
+
+.main-section.-fourth {
+   background-color: #828282;
 }

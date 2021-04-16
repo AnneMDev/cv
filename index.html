@@ -23,16 +23,18 @@
     <link rel="stylesheet" href="site/css/main-carousel.css">
     <link rel="stylesheet" href="site/css/button-arrow.css">
     <link rel="stylesheet" href="site/css/node-card.css">
+    <link rel="stylesheet" href="site/css/main-footer.css">
+    <link rel="stylesheet" href="site/css/main-input.css">
 </head>
 <body>
     <header class="main-header">
         <img src="site/Assets/Logo da PTI em PSD.jpg" alt="Logo da Anne">
         <nav class="navigation">
-            <a class="main-action" href="" lang='en'>Skills</a>
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
-            <a class='main-button' href="" lang='en'>Download CV</a>
+            <a class="main-action" href="#st" lang='en'>Skills</a>
+            <a class="main-action" href="#nd">Projetos</a>
+            <a class="main-action" href="#rd">Sobre</a>
+            <a class="main-action" href="#th">Contatos</a>
+            <a class='main-button' href="site/Assets/Currículo.pdf" download="CV" lang='en'>Download CV</a>
         </nav>
     </header>
 
@@ -44,14 +46,14 @@
             </div>
 
             <div class="navigation">
-                <a class='main-button' href="" lang='en'>Download CV</a>
-                <a class='main-button' href="">Contatos</a>
+                <a class='main-button' href="site/Assets/Currículo.pdf" lang='en' target="_blank">Download CV</a>
+                <a class='main-button' href="#th">Contatos</a>
             </div>
         </div>
     </section>
 
     <section class="main-section">
-        <h1 class="main-title -second">Skills</h1>
+        <h1 id="st" class="main-title -second">Skills</h1>
 
         <div class="wrapper-skill">
             <article class="skill-tec">
@@ -93,7 +95,7 @@
             </article>
         </div>
     </section>
-    <section class="main-section -second">
+    <section id="nd" class="main-section -second">
         <h1 class="main-title -second">Projetos</h1>
         <div class="wrapper-card">
             <a href="https://annemdev.github.io/FutLovers/" target="_blank">
@@ -113,7 +115,7 @@
             </a>
         </div>
     </section>
-    <section class="main-section -third">
+    <section id="rd" class="main-section -third">
         <h1 class="main-title -second">Trajetória</h1>
             <section class="main-carousel">
                 <button class="button-arrow -left"><span class="content">Avançar</span></button>
@@ -157,6 +159,28 @@
             Hoje, cursando Administração, Anne já se apaixonou pelas mais diversas áreas. Foi feirante, desenhista, entrou na área de TI como leiga total no assunto e gosta de ir descobrindo seu caminho conforme o percorre. Anne tem estudado Python, HTML, CSS, JavaScript, Photoshop, Marketing Digital, Programação em IOT e decidiu unir tudo, ou quase tudo, em um único lugar na tentativa de ter um insight sobre qual caminho seguir.
             </p>
     </section>
-    <script src="site/js/main-carousel.js"></script>      
+    <section id="th" class="main-section -fourth">
+        <form class="wrapper">
+            <h1 class="main-title -second">Contatos</h1>
+            <label for="nome" class="title-input">Nome</label>
+            <input type="text"  class="main-input" class="title-input" name="" id="nome" required>
+            <label for="email" class="title-input">Email</label>
+            <input type="email" class="main-input" name="" id="email" required>
+            <label for="msg" class="title-input">Mensagem</label>
+            <textarea class="main-input" id="msg" required></textarea>
+            <button type="submit" class="main-button -footer">Enviar</button>
+        </form>
+
+
+    </section>
+    <footer class="main-footer">
+        <div class="wrapper">
+            <a href="https://github.com/AnneMDev" target="_blank"><img class="icon" src="site/Assets/icon/github.png" alt="ícone do Github"></a>
+            <a href="https://instagram.com/adm_anne21?igshid=56mkp0nxrz6b" target="_blank"><img class="icon" src="site/Assets/icon/instagram.png" alt="ícone do instagram"></a>
+            <a href="https://www.facebook.com/michelly.lima.96592836" target="_blank"><img class="icon" src="site/Assets/icon/facebook.png" alt="ícone do Facebook"></a>
+            <a href="https://t.me/adm_devAnne" target="_blank"><img class="icon" src="site/Assets/icon/Telegram.png" alt="ícone do Telegram"></a>
+        </div>
+    </footer>
+    <script src="site/js/main-carousel.js"></script>    
 </body>
 </html>

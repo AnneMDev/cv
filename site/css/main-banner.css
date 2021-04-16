@@ -2,17 +2,17 @@
     box-sizing: border-box;
     background-image: url(../Assets/back.png);
     background-repeat: no-repeat;
-    height: 740px;
+    height: 100%;
     background-size: 100%;
     border-bottom: 10px solid #000;
-    padding-top: 335px;
-    padding-left: 555px;
+    padding-top: 25%;
+    padding-left: 41%;
 }
 
 .main-banner .wrapper {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 500px;
 }
 
 .main-banner .box{
@@ -23,4 +23,5 @@
    display: flex;
    justify-content: space-around;
    padding-top: 20px;
+   padding-bottom: 5%;
 }

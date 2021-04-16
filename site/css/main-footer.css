@@ -1,0 +1,14 @@
+.main-footer {
+    background-color: #000;
+}
+
+.main-footer .wrapper {
+    display: flex;
+    margin-left: 550px;
+    margin-right: 550px;
+    justify-content: space-between;
+}
+.main-footer .icon {
+    height: 45px;
+    width: 45px;
+}

@@ -10,6 +10,19 @@
     text-decoration: none;
 }
 
+.main-button.-footer {
+    width: 100%;
+    transition: transform 100ms linear;
+    color: #fff;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+.main-button.-footer:hover {
+    transform: scale(1.01);
+}
+
 .main-button:hover{
     transform: scale(1.08);
     cursor: pointer;
